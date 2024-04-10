@@ -15,6 +15,7 @@ REGISTERING_USER, REGISTERING_NICKNAME = range(2)
 DEPOSIT_AMOUNT, CHOOSING_NETWORK = range(2)
 
 
+#САСИ ГАВНО!!!!
 
 
 def create_connection():
@@ -27,8 +28,6 @@ def create_connection():
     conn = sqlite3.connect("users.db")
 
     return conn
-
-
 
 
 
